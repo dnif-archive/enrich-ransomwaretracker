@@ -1,0 +1,4 @@
+enrichment_plugin:
+  RANSOMWARETRACKER_URL_SOURCE: https://ransomwaretracker.abuse.ch/downloads/RW_URLBL.txt
+  RANSOMWARETRACKER_DOMAIN_SOURCE: https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
+  RANSOMWARETRACKER_IP_SOURCE: https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt
