@@ -18,9 +18,10 @@
 #### Ransomware Tracker Domain feeds  
  Master feed of known affected domain names.  
  This feed is merely an aggregate of the other feeds which list affected domain names . 
- The current list of malware families that are represented in these feeds are:
- |Blocklist    | Malware        | Scope  |
- |------------- |:------------- |:-------------:|
+ The current list of malware families that are represented in these feeds are  
+ 
+   | Blocklist    | Malware        | Scope  |
+ |------------- |:-------------: |:-------------:|
  |CW_PS_DOMBL| CryptoWall      | Payment Sites	 |
  |TC_C2_DOMBL| TeslaCrypt      | Payment Sites      |
  |LY_C2_DOMBL| Locky | C2      |
@@ -34,9 +35,10 @@
 #### Ransomware Tracker URL feeds
  Master feed of known affected URL
  This feed is merely an aggregate of the other feeds which list affected URL.
- The current list of malware families that are represented in these feeds are:
- |Blocklist    | Malware        | Scope  |
- |------------- |:------------- |:-------------:|
+ The current list of malware families that are represented in these feeds are  
+ 
+   | Blocklist    | Malware        | Scope  |
+ |------------- |:-------------: |:-------------:|
  |CW_C2_URLBL| CryptoWall      | C2	 |
  |TC_C2_URLBL| TeslaCrypt      | C2  |
  |TC_DS_URLBL| TeslaCrypt | Distribution Sites	|
@@ -47,8 +49,9 @@
 #### Ransomware Tracker IP feeds
  Master feed of known affected IP
  This feed is merely an aggregate of the other feeds which list affected IP.
- The current list of malware families that are represented in these feeds are:
- |Blocklist    | Malware        | Scope  |
+ The current list of malware families that are represented in these feeds are 
+ 
+| Blocklist    | Malware        | Scope  |
  |------------- |:------------- |:-------------:|
  |TC_PS_IPBL| TeslaCrypt      | Payment Sites |
  |LY_C2_IPBL| Locky      | C2  |
@@ -78,7 +81,7 @@ $cd /dnif/CnxxxxxxxxxxxxV8/enrichment_plugin/
 git clone https://github.com/dnif/enrich-ransomwaretracker.git ransomwaretracker
 ```
 ### API feed output structure
-  | Fields        | Description  |
+| Fields        | Description  |
 | ------------- |:-------------:|
 | EvtType      | An IP/Domain/URL |
 | EvtName      | The IOC      |
