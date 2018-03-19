@@ -61,8 +61,6 @@
  
  False Positive Score of this list is *MEDIUM* 
 
-#### Contact Information
-  contactme@abuse.ch
 ### Using the Ransomware Tracker feeds API
  The Ransomware Tracker feeds API is found on github at
 
