@@ -61,6 +61,17 @@
  
  False Positive Score of this list is *MEDIUM* 
 
+### PRE-REQUISITES to use Ransomware Tracker feeds API and DNIF  
+Outbound access required to request Ransomware Tracker feeds API
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| ransomwaretracker.abuse.ch | 443 | 
+
+
+
+
 ### Using the Ransomware Tracker feeds API
  The Ransomware Tracker feeds API is found on github at
 
